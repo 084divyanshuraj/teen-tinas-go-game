@@ -88,10 +88,24 @@ This project was created as a submission for a **gaming hackathon**. The goal wa
 
 ---
 
+## 📸 Screenshots
+
+### Title Screen
+![Title Screen]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a3473a7-152a-4e2a-be0d-8a97a8b9fe9b" />
+
+
+### Cutscene
+![Cutscene]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7772e01e-d510-4c2d-bf37-6e5c4924ca9e" />
+
+
+### Gameplay
+![Gameplay]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d8250d6-31dd-4b54-a7ea-a4e092cd70f9" />
+
+
 ## 📄 License
 
 This project is open source. Feel free to fork, remix, and build upon it.
 
 ---
 
-<p align="center">Made with 👶🤜 by <a href="https://github.com/084divyanshuraj">084divyanshuraj</a></p>
+<p align="center">Made with 👶🤜 </p>
