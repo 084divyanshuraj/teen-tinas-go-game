@@ -91,15 +91,18 @@ This project was created as a submission for a **gaming hackathon**. The goal wa
 ## 📸 Screenshots
 
 ### Title Screen
-![Title Screen]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a3473a7-152a-4e2a-be0d-8a97a8b9fe9b" />
+![Title Screen]<img width="1600" height="758" alt="Screenshot (2037)" src="https://github.com/user-attachments/assets/dfff2b86-684e-494d-bc8b-532ef814d7f3" />
 
 
 ### Cutscene
-![Cutscene]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7772e01e-d510-4c2d-bf37-6e5c4924ca9e" />
+![Cutscene]<img width="1600" height="758" alt="Screenshot (2038)" src="https://github.com/user-attachments/assets/d141f59e-cb9d-4105-add4-3904291653c9" />
+
 
 
 ### Gameplay
-![Gameplay]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d8250d6-31dd-4b54-a7ea-a4e092cd70f9" />
+![Gameplay]<img width="1600" height="756" alt="Screenshot (2039)" src="https://github.com/user-attachments/assets/24e3a3f8-eef1-4ece-91d0-cb04636e9908" />
+
+
 
 
 ## 📄 License
