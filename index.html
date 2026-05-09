@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teen Titans GO! - Baby Hands Crisis</title>
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <div id="game-wrapper">
@@ -44,6 +44,17 @@
     <!-- GAME CANVAS -->
     <div id="game-screen" class="screen">
       <canvas id="gameCanvas" width="800" height="450"></canvas>
+      <!-- MOBILE CONTROLS -->
+      <div id="mobile-controls">
+        <div class="dpad">
+          <button id="btn-left" class="touch-btn">◀</button>
+          <button id="btn-right" class="touch-btn">▶</button>
+          <button id="btn-jump" class="touch-btn">▲</button>
+        </div>
+        <div class="action-pad">
+          <button id="btn-attack" class="touch-btn">👊</button>
+        </div>
+      </div>
       <div id="hud">
         <div id="hud-left">
           <span id="hud-lives">❤️❤️❤️</span>
@@ -81,6 +92,6 @@
     </div>
   </div>
 
-  <script src="game.js?v=4"></script>
+  <script src="game.js?v=6"></script>
 </body>
 </html>

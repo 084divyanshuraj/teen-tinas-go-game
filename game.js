@@ -529,6 +529,30 @@ function isRight()  { return keys['ArrowRight'] || keys['KeyD']; }
 function isJump()   { return keys['ArrowUp']    || keys['KeyW'] || keys['Space']; }
 function isAttack() { return keys['KeyZ'] || keys['KeyX']; }
 
+// --- Mobile Touch Controls ---
+const touchMap = {
+  'btn-left': 'ArrowLeft',
+  'btn-right': 'ArrowRight',
+  'btn-jump': 'ArrowUp',
+  'btn-attack': 'KeyZ'
+};
+
+Object.keys(touchMap).forEach(id => {
+  const btn = document.getElementById(id);
+  if (!btn) return;
+  
+  const press = (e) => { e.preventDefault(); keys[touchMap[id]] = true; };
+  const release = (e) => { e.preventDefault(); keys[touchMap[id]] = false; };
+
+  btn.addEventListener('touchstart', press, {passive: false});
+  btn.addEventListener('touchend', release, {passive: false});
+  
+  // Also bind mouse events so it's clickable on desktop for testing
+  btn.addEventListener('mousedown', press);
+  btn.addEventListener('mouseup', release);
+  btn.addEventListener('mouseleave', release);
+});
+
 // ============================================================
 //  PHYSICS & COLLISIONS
 // ============================================================

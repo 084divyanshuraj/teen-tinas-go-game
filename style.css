@@ -269,6 +269,55 @@ body {
   image-rendering: pixelated;
 }
 
+/* ============ MOBILE CONTROLS ============ */
+#mobile-controls {
+  position: absolute;
+  bottom: 40px; /* Right above the HUD */
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none; /* Let clicks pass through empty areas to canvas */
+  z-index: 50;
+}
+
+.dpad, .action-pad {
+  display: flex;
+  gap: 15px;
+  pointer-events: auto; /* Re-enable for buttons */
+}
+
+.touch-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(106, 13, 173, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  touch-action: none; /* Prevent browser pan/zoom */
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+}
+
+.touch-btn:active {
+  background: rgba(255, 221, 0, 0.8);
+  border-color: #fff;
+  transform: scale(0.95);
+  color: #000;
+}
+
+@media (min-width: 900px) {
+  #mobile-controls {
+    display: none; /* Hide on larger screens gracefully */
+  }
+}
+
 /* ======= HUD ======= */
 #hud {
   width: 100%;
