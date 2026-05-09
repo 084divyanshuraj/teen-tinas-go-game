@@ -91,16 +91,20 @@ This project was created as a submission for a **gaming hackathon**. The goal wa
 ## 📸 Screenshots
 
 ### Title Screen
-![Title Screen]<img width="1600" height="758" alt="Screenshot (2037)" src="https://github.com/user-attachments/assets/dfff2b86-684e-494d-bc8b-532ef814d7f3" />
+<img width="1600" height="758" alt="Screenshot (2037)" src="https://github.com/user-attachments/assets/dfff2b86-684e-494d-bc8b-532ef814d7f3" />
 
 
 ### Cutscene
-![Cutscene]<img width="1600" height="758" alt="Screenshot (2038)" src="https://github.com/user-attachments/assets/d141f59e-cb9d-4105-add4-3904291653c9" />
+<img width="1600" height="758" alt="Screenshot (2038)" src="https://github.com/user-attachments/assets/d141f59e-cb9d-4105-add4-3904291653c9" />
 
 
 
 ### Gameplay
-![Gameplay]<img width="1600" height="756" alt="Screenshot (2039)" src="https://github.com/user-attachments/assets/24e3a3f8-eef1-4ece-91d0-cb04636e9908" />
+<img width="1600" height="756" alt="Screenshot (2039)" src="https://github.com/user-attachments/assets/24e3a3f8-eef1-4ece-91d0-cb04636e9908" />
+
+
+### End Game
+<img width="1910" height="909" alt="image" src="https://github.com/user-attachments/assets/a945217c-00a9-4c25-a25a-112e05b169a3" />
 
 
 
